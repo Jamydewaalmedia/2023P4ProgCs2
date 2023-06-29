@@ -3,11 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleMonGame", "ConsoleMonGame.csproj", "{6C1D6DB1-9ED7-4A99-96C3-E7D5AF730E24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIOOpdracht", "FileIOOpdracht.csproj", "{2CC197C3-64A3-48F9-94D5-BEB0B0430678}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2BAE10FC-09D3-426A-B42E-AB19C9B67B70}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F8B0E6E-1863-40D6-AAD9-94ABCE945511}"
 	ProjectSection(SolutionItems) = preProject
-		Class1.cs = Class1.cs
 		TextFile1.txt = TextFile1.txt
 	EndProjectSection
 EndProject
@@ -17,15 +16,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6C1D6DB1-9ED7-4A99-96C3-E7D5AF730E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C1D6DB1-9ED7-4A99-96C3-E7D5AF730E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C1D6DB1-9ED7-4A99-96C3-E7D5AF730E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C1D6DB1-9ED7-4A99-96C3-E7D5AF730E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC197C3-64A3-48F9-94D5-BEB0B0430678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC197C3-64A3-48F9-94D5-BEB0B0430678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC197C3-64A3-48F9-94D5-BEB0B0430678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC197C3-64A3-48F9-94D5-BEB0B0430678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0FBBFD9D-CAB7-456F-8951-E721CEF65D3C}
+		SolutionGuid = {B11BA468-3C11-47D6-A499-2DD31AD346F2}
 	EndGlobalSection
 EndGlobal
