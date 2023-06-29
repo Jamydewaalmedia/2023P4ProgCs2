@@ -13,15 +13,6 @@ using System.Text.Json;
 
 namespace WindowsFormsApp1
 {
-    public class ListData
-    {
-        public IList<CheckboxData> checkBoxes { get; set; }
-    }
-    public class CheckboxData
-    {
-        public string Value { get; set; }
-        public bool Checked { get; set; }
-    }
     public partial class Form1 : Form
     {
         public Form1()

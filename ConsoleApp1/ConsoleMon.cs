@@ -8,11 +8,11 @@ namespace ConsoleMonGame
 {
     internal class ConsoleMon
     {
-        internal int health;
-        internal int energy;
-        internal string name;
-        private List<Skill> skills = new List<Skill>();
-        internal Element weakness;
+        public int health { get; set; }
+        public int energy { get; set; }
+        public string name { get; set; }
+        public List<Skill> skills { get; set; }
+        public Element weakness { get; set; }
 
 
 
@@ -24,6 +24,19 @@ namespace ConsoleMonGame
         internal void DepleteEnergy(int energy)
         {
             this.energy -= energy;
+        }
+        public ConsoleMon()
+        //dit is de default doet niks afblijven mwuah
+        {
+
+        }
+        internal ConsoleMon(int health, int energy, Element weakness, string name)
+        {
+            this.health = health;
+            this.energy = energy;
+            this.weakness = weakness;
+            this.name = name;
+           
         }
     }
 }
